@@ -7,5 +7,5 @@ RUN apk add zip
 
 RUN zip -q -d /elasticsearch/lib/log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
 
-
+ 
 CMD ["/run.sh"]
